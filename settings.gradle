@@ -1,0 +1,8 @@
+include ':app', ':library', ':camera_library'
+rootProject.name='StudyVedio'
+gradle.ext.compileSdkVersion = 27
+gradle.ext.minSdkVersion = 21
+gradle.ext.targetSdkVersion = 27
+
+gradle.ext.supportLibraryVersion = '27.1.1'  //以后会更新到新版
+gradle.ext.ijkPlayerVersion = '0.8.8'
